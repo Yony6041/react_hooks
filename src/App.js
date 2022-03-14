@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import StateTutorial from '../src/useState/StateTutorial';
+import ReducerTutorial from '../src/useReducer/ReducerTutorial';
+import EffectTutorial from './useEffect/EffectTutorial';
+import RefTutorial from './UseRef/RefTutorial';
+import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial';
+import ImperativeHandle from './useImperativeHandle/ImperativeHandle';
+import ContextTutorial from './UseContext/ContextTutorial';
+import MemoTutorial from './UseMemo/MemoTutorial';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StateTutorial />
+      <ReducerTutorial />
+      <EffectTutorial />
+      <RefTutorial />
+      <LayoutEffectTutorial/>
+      <ImperativeHandle/>
+      <ContextTutorial/>
+      <MemoTutorial/>
     </div>
   );
 }
