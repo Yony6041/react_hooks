@@ -7,6 +7,7 @@ import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial';
 import ImperativeHandle from './useImperativeHandle/ImperativeHandle';
 import ContextTutorial from './UseContext/ContextTutorial';
 import MemoTutorial from './UseMemo/MemoTutorial';
+// import CallbackTutorial from './UseCallback/CallbackTutorial';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <ImperativeHandle/>
       <ContextTutorial/>
       <MemoTutorial/>
+      {/* <CallbackTutorial/> */}
     </div>
   );
 }
